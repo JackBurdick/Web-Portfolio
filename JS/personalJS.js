@@ -8,7 +8,7 @@ $(document).ready(function() {
 	    		anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
 					scrollingSpeed: 300,
         	easing: 'swing',
-			    sectionsColor: ['white', '#39C', '#2C3E50', '#bdedc9' ],
+			    sectionsColor: ['white', '#2C3E50', '#39C', '#bdedc9' ],
 			    navigation: {
 			    	'position': 'right',
 			   		'tooltips': ['Home', 'Education', 'Experience', 'About']
