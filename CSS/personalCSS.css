@@ -4,6 +4,7 @@
 
 .educationTitle {
 	text-align: center;
+	/*text-shadow: 0 1px 3px rgba(0,0,0,.15);*/
 }
 .sectionContent {
 	padding-top: 3%;
@@ -12,6 +13,12 @@
 .articleContent {
 	padding: 3%;
 	color: #fff;
+}
+
+#section4 {
+	background: #5dd19c;
+	background: linear-gradient(20deg, #104a72, #5dd19c 75%, #fffae8);
+
 }
 
 
