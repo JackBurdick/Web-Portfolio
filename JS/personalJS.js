@@ -2,6 +2,8 @@ $(document).ready(function() {
 			/*
 			* Plugin intialization
 			*/
+
+
 	    	$('#pagepiling').pagepiling({
 	          	direction: 'horizontal',
 	    		menu: '#menu',
@@ -23,5 +25,37 @@ $(document).ready(function() {
 			    		$('#pp-nav').addClass('custom');
 			    	}
 			    }
-			});
+				});
+
+				$('.tlt').textillate({
+				  loop: true,
+
+				  // sets the minimum display time for each text before it is replaced
+				  minDisplayTime: 1500,
+				  autoStart: true,
+
+				  // in animation settings
+				  in: {
+				    effect: 'bounce',
+				    delay: 50,
+				    sync: true,
+
+				  },
+
+				  // out animation settings.
+				  out: {
+				    effect: 'hinge',
+				    delayScale: 3.0,
+				    delay: 50,
+				    sync: false,
+				    shuffle: true,
+				  },
+
+				  // set the type of token to animate (available types: 'char' and 'word')
+				  type: 'char'
+				});
+
 	    });
+
+
+// Textillate
