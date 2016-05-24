@@ -1,7 +1,19 @@
+.educationIcon {
+	text-align: center;
+}
 
+.educationTitle {
+	text-align: center;
+}
 .sectionContent {
 	padding-top: 3%;
 }
+
+.articleContent {
+	padding: 3%;
+	color: #fff;
+}
+
 
 /*Menu information*/
 #menu li {
