@@ -3,14 +3,14 @@ $(document).ready(function() {
 			* Plugin intialization
 			*/
 
-
+// #39C
 	    	$('#pagepiling').pagepiling({
 	          	direction: 'horizontal',
 	    		menu: '#menu',
 	    		anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
 					scrollingSpeed: 300,
         	easing: 'swing',
-			    sectionsColor: ['white', '#2C3E50', '#39C', '#bdedc9' ],
+			    sectionsColor: ['white', '#2C3E50', '#edf5ff', '#bdedc9' ],
 			    navigation: {
 			    	'position': 'right',
 			   		'tooltips': ['Home', 'Education', 'Experience', 'About']
@@ -61,7 +61,8 @@ $(document).ready(function() {
 					arrows: {
 						prev: '<a class="unslider-arrow prev"><</a>',
 						next: '<a class="unslider-arrow next">></a>'
-					}
+					},
+					infinite: true
 				});
 
 	    });

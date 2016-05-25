@@ -95,8 +95,11 @@ blockquote {
 	overflow:auto;
 	margin:0;
 	padding:0;
-	background: #e5e6dd;
-	border-radius: 6px;
+	/*background: #e5e6dd;*/
+	border-radius: 3px;
+	background-color: #419ecc;
+	box-shadow: 10px 10px 5px #999999;
+	margin: 15px;
 }
 
 .unslider-wrap{position:relative}
@@ -166,6 +169,7 @@ blockquote {
 	padding-left: 4%;
 	padding-right: 4%;
 	padding-bottom: 1%;
+
 }
 
 
