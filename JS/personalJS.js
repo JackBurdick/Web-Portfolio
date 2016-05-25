@@ -30,8 +30,10 @@ $(document).ready(function() {
 				$('.tlt').textillate({
 				  loop: true,
 
+					initialDelay: 1000,
+
 				  // sets the minimum display time for each text before it is replaced
-				  minDisplayTime: 1500,
+				  minDisplayTime: 3500,
 				  autoStart: true,
 
 				  // in animation settings
