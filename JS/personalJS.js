@@ -57,6 +57,8 @@ $(document).ready(function() {
 				  type: 'char'
 				});
 
+				$('.default-slider').unslider();
+
 	    });
 
 
