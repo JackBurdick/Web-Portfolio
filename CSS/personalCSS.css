@@ -163,16 +163,14 @@ blockquote {
 
 .careerContent {
 	padding-top: 1%;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 4%;
+	padding-right: 4%;
 	padding-bottom: 1%;
 }
 
-ul.careerPoints {
-  padding-left: 5%;
-	width: 95%;
-}
 
-ul.careerPoints > li {
+.careerPoints > li {
 	padding-bottom: 2%;
+	padding-left: 5%;
+	width: 90%;
 }
