@@ -57,7 +57,12 @@ $(document).ready(function() {
 				  type: 'char'
 				});
 
-				$('.default-slider').unslider();
+				$('.default-slider').unslider({
+					arrows: {
+						prev: '<a class="unslider-arrow prev"><</a>',
+						next: '<a class="unslider-arrow next">></a>'
+					}
+				});
 
 	    });
 
