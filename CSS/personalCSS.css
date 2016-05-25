@@ -1,3 +1,15 @@
+
+
+.landingContent {
+	padding: 5%;
+	margin-top: 10%;
+}
+
+.centerText {
+	text-align: center;
+}
+
+
 .educationIcon {
 	text-align: center;
 }
@@ -6,12 +18,20 @@
 	text-align: center;
 	/*text-shadow: 0 1px 3px rgba(0,0,0,.15);*/
 }
+
+
+blockquote {
+	color: grey;
+}
+
+
 .sectionContent {
 	padding-top: 3%;
 }
 
 .articleContent {
-	padding: 3%;
+	padding: 5%;
+	margin-top: 10%;
 	color: #fff;
 }
 
@@ -26,7 +46,7 @@
 #menu li {
 	display:inline-block;
 
-	margin: 5px;
+	margin: 4px;
 
 	color: #000;
 	-webkit-border-radius: 3px;
@@ -54,7 +74,7 @@
 #menu li.active a{
 	display:block;
 
-	padding: 9px 18px;
+	padding: 5px 10px;
 }
 #menu li.active a{
 	color: #fff;
