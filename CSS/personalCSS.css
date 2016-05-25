@@ -95,7 +95,8 @@ blockquote {
 	overflow:auto;
 	margin:0;
 	padding:0;
-	background: #5dd19c;
+	background: #e5e6dd;
+	border-radius: 6px;
 }
 
 .unslider-wrap{position:relative}
@@ -157,4 +158,21 @@ blockquote {
 .prev {
   position: absolute;
   top: 70%;
+}
+
+
+.careerContent {
+	padding-top: 1%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 1%;
+}
+
+ul.careerPoints {
+  padding-left: 5%;
+	width: 95%;
+}
+
+ul.careerPoints > li {
+	padding-bottom: 2%;
 }
