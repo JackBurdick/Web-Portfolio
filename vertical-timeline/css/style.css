@@ -139,30 +139,30 @@ header h1 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img img {
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 24px;
+  height: 24px;
   position: relative;
   left: 50%;
   top: 50%;
   border-radius: 50%;
-  margin-left: -30px;
-  margin-top: -30px;
+  margin-left: -12px;
+  margin-top: -12px;
 }
-.cd-timeline-img.cd-picture {
+.cd-timeline-img.cd-good {
   background: #75ce66;
 }
-.cd-timeline-img.cd-movie {
-  background: #c03b44;
+.cd-timeline-img.cd-event {
+  background: #303e49;
 }
-.cd-timeline-img.cd-location {
-  background: #f0ca45;
+.cd-timeline-img.cd-changeInPlan {
+  background: #f09144;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
