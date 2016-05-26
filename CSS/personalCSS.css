@@ -36,8 +36,7 @@ blockquote {
 }
 
 #section4 {
-	background: #5dd19c;
-	background: linear-gradient(20deg, #104a72, #5dd19c 75%, #fffae8);
+	background: linear-gradient(20deg, #558C89, #74AFAD 75%, #D9853B);
 
 }
 
@@ -177,4 +176,16 @@ blockquote {
 	padding-bottom: 2%;
 	padding-left: 5%;
 	width: 90%;
+}
+
+.projectsSection {
+	background: rgba(19, 28, 26, 0.23);
+	border-radius: 3px;
+	color: black;
+}
+
+mark {
+		border-radius: 5px;
+    background-color: rgba(217, 133, 59, 0.44);
+    color: black;
 }

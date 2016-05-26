@@ -33,7 +33,7 @@ $(document).ready(function() {
 					initialDelay: 1000,
 
 				  // sets the minimum display time for each text before it is replaced
-				  minDisplayTime: 3500,
+				  minDisplayTime: 2100,
 				  autoStart: true,
 
 				  // in animation settings
