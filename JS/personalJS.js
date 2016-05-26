@@ -10,7 +10,7 @@ $(document).ready(function() {
 	    		anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
 					scrollingSpeed: 300,
         	easing: 'swing',
-			    sectionsColor: ['white', '#2C3E50', '#edf5ff', '#bdedc9', '#39C' ],
+			    sectionsColor: ['white', '#2C3E50', '#edf5ff', '#bdedc9', '#f5f2f2' ],
 			    navigation: {
 			    	'position': 'right',
 			   		'tooltips': ['Home', 'Education', 'Experience', 'Projects', 'About']

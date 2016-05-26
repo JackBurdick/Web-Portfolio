@@ -36,8 +36,8 @@ blockquote {
 }
 
 #section4 {
-	background: linear-gradient(90deg, #1f586e, #4c8db1 75%, #dfa069);
-	color: white;
+	background: linear-gradient(90deg, #eaeced, #f0f0f0 75%, #27e624);
+	/*color: white;*/
 
 }
 
@@ -201,17 +201,35 @@ blockquote {
 
 
 .projectsSection {
-	background: rgba(19, 28, 26, 0.23);
+	background: rgba(60, 70, 68, 0.17);
 	border-radius: 2px;
-	color: white;
+	color: black;
 }
 
 mark {
 		border-radius: 5px;
-    background-color: rgba(217, 133, 59, 0.44);
+    background-color: rgba(109, 217, 59, 0.44);
     color: black;
 }
 
+.cd-timeline-content mark {
+	border-radius: 5px;
+	background-color: rgba(231, 255, 221, 0.44);
+	color: black;
+}
+
+
+
 .classList {
 	font-size: 1em;
+}
+
+.cd-timeline-content > h2 {
+	text-align: center;
+	margin: -0.1em;
+	font-size: 1.5em;
+}
+
+.cd-timeline-content > p {
+	font-size: 1.2em;
 }
