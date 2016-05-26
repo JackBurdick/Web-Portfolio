@@ -10,10 +10,10 @@ $(document).ready(function() {
 	    		anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
 					scrollingSpeed: 300,
         	easing: 'swing',
-			    sectionsColor: ['white', '#2C3E50', '#edf5ff', '#bdedc9' ],
+			    sectionsColor: ['white', '#2C3E50', '#edf5ff', '#bdedc9', '#39C' ],
 			    navigation: {
 			    	'position': 'right',
-			   		'tooltips': ['Home', 'Education', 'Experience', 'About']
+			   		'tooltips': ['Home', 'Education', 'Experience', 'Projects', 'About']
 			   	},
 			    afterRender: function(){
 			    	$('#pp-nav').addClass('custom');
