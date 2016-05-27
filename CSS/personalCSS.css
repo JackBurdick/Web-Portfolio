@@ -358,3 +358,26 @@ header {
         width: 100%;
     }
 }
+
+
+.card-grid {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.card-grid .front, .card-grid .back {
+  padding: 10px;
+  text-align: center;
+  border: 1px #333 solid;
+}
+
+.card-grid .front {
+  background-color: #eee;
+}
+
+.card-grid .back {
+  background-color: #333;
+  color: white;
+}
