@@ -90,6 +90,13 @@ blockquote {
 	padding: 0;
 }
 
+
+
+
+/*------------------------------------------unslider styling*/
+
+
+
 .default-slider {
 	overflow:auto;
 	margin:0;
@@ -116,8 +123,8 @@ blockquote {
 
 .unslider-arrow {
 		display: block;
-		width: 25px;
-		height: 25px;
+		width: 40px;
+		height: 40px;
 
 		top: 50%;
 		right: -50px;
@@ -126,7 +133,7 @@ blockquote {
 
 		overflow: hidden;
 
-		background: rgba(0,0,0,.2) no-repeat 50% 50%;
+		background: rgba(0,0,0,.8) no-repeat 50% 50%;
 		background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAQCAQAAABuQZ3IAAAAi0lEQVR4AU3OISBEQQBAwS0AACS9NxqQgCZpkiYBVddFvWhAAUABAPQCAGC4g/0vTnrBqCfDIZl70J+kMUBPpEwT4FNXxBxz4F1HxHyr4EVTxBLb4EFNxEon4CJSlVNw9AcV9sC16h8osgke1P1ArgXwouVvdQq86ww/GQefusNf7kBviBlxpT8k+gL/Wox4r1d4MwAAAABJRU5ErkJggg==');
 		background-size: 7px 11px;
 
@@ -143,13 +150,13 @@ blockquote {
 
 
 .unslider-arrow.prev {
-	  left: -5%;
+	  left: -2%;
 		-ms-transform: rotate(-180deg);
 		transform: rotate(-180deg);
 }
 
 .unslider-arrow.next {
-	  right: -5%;
+	  right: -2%;
 }
 
 .next {
