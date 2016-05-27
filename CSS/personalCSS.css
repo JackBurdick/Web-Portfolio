@@ -220,7 +220,6 @@ mark {
 }
 
 
-
 .classList {
 	font-size: 1em;
 }
@@ -233,6 +232,7 @@ mark {
 
 .cd-timeline-content > p {
 	font-size: 1.2em;
+	margin-bottom: 0px;
 }
 
 #section6 {
