@@ -201,18 +201,10 @@ blockquote {
 }
 
 
-.projectsSection {
-	background: rgba(60, 70, 68, 0.17);
-	border-radius: 2px;
-	color: black;
-	width: 85%;
-}
 
-mark {
-	border-radius: 5px;
-  background-color: rgba(109, 217, 59, 0.44);
-  color: black;
-}
+
+
+/*About page - timeline styling*/
 
 .cd-timeline-content mark {
 	border-radius: 5px;
@@ -272,7 +264,37 @@ header {
 	margin-bottom: 70px;
 }
 
-/*project images*/
+/*Project Section*/
+
+/*Project page headings*/
+.projectsAbout h2 {
+	color: #6f6f6f;
+	margin-bottom: 0px;		/*bring heading closer to content*/
+}
+
+.projectsAbout h3 {
+	color: #6f6f6f;
+	margin-bottom: 0px;		/*bring heading closer to content*/
+	margin-top:5px;
+}
+
+.projectsSection {
+	background: rgba(84, 98, 95, 0.17);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 2px;
+	color: black;
+	width: 85%;
+}
+
+mark {
+	border-radius: 5px;
+  background-color: rgba(109, 217, 59, 0.44);
+  color: black;
+}
+
+
+/*-------------------------------------------project images*/
 
 #introWeb_instagram > .front {
 	background-image:url(../img/projects/instagramLike_page.png);
@@ -301,7 +323,32 @@ header {
 	background-size: 100%;
 }
 
+/*flip card syling*/
+#projectContainer {
+	float:left;
+}
 
+.card-grid {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.card-grid .front, .card-grid .back {
+  padding: 10px;
+  text-align: center;
+  /*border: 1px #333 solid;*/
+}
+
+.card-grid .front {
+  background-color: #eee;
+}
+
+.card-grid .back {
+  background-color: #333;
+  color: white;
+}
 
 
 .front > h3 {
@@ -314,7 +361,7 @@ header {
 }
 
 
-
+ /*-------------------------------------------END OF PROJECT SECTION*/
 
 
 
@@ -406,32 +453,7 @@ header {
 }
 
 
-/*flip card syling*/
-#projectContainer {
-	float:left;
-}
 
-.card-grid {
-  width: 250px;
-  height: 250px;
-  margin: 10px;
-  display: inline-block;
-}
-
-.card-grid .front, .card-grid .back {
-  padding: 10px;
-  text-align: center;
-  /*border: 1px #333 solid;*/
-}
-
-.card-grid .front {
-  background-color: #eee;
-}
-
-.card-grid .back {
-  background-color: #333;
-  color: white;
-}
 
 
 
