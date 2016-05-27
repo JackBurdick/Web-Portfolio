@@ -211,7 +211,7 @@ blockquote {
 
 
 
-/*About page - timeline styling*/
+/*-----------------------------------------About page - timeline styling*/
 
 .cd-timeline-content mark {
 	border-radius: 5px;
@@ -263,6 +263,7 @@ blockquote {
 #personalNote {
 	font-family: "Lucida Console", Monaco, monospace;
 	color: #4b4a4a;
+	font-weight: bold;
 	text-align: left;
 }
 
@@ -291,7 +292,7 @@ header {
 	padding-bottom: 20px;
 	border-radius: 2px;
 	color: black;
-	width: 85%;
+	width: 82%;
 }
 
 mark {
@@ -368,7 +369,7 @@ mark {
 }
 
 
- /*-------------------------------------------END OF PROJECT SECTION*/
+ /*--------------------------------------------- END OF PROJECT SECTION*/
 
 
 
