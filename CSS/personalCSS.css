@@ -421,7 +421,7 @@ header {
 .card-grid .front, .card-grid .back {
   padding: 10px;
   text-align: center;
-  border: 1px #333 solid;
+  /*border: 1px #333 solid;*/
 }
 
 .card-grid .front {
@@ -431,4 +431,19 @@ header {
 .card-grid .back {
   background-color: #333;
   color: white;
+}
+
+
+
+/*#section3 {
+	padding-top: 20px;
+	padding-bottom: auto;
+}*/
+
+#section4 {
+	padding-bottom: 30px;
+}
+
+#section5 {
+	padding-bottom: 20px;
 }
