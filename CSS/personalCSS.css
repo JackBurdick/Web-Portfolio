@@ -273,13 +273,12 @@ header {
 
 
 /* Style the Image Used to Trigger the Modal */
-#myImg {
-    border-radius: 5px;
+#profilePicture {
     cursor: pointer;
     transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
+#profilePicture:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {
@@ -361,8 +360,8 @@ header {
 
 
 .card-grid {
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 250px;
   margin: 20px;
   display: inline-block;
 }
