@@ -174,15 +174,16 @@ blockquote {
 
 /*Employer*/
 .careerContent h2 {
-	color: black;
+	color: #dedbdb;
 	text-transform: uppercase;
 	font-weight: bold;
 }
 
 /*title year*/
 .careerContent h3 {
-	color: black;
+	color: #969596;
 	font-style:italic;
+	font-weight: bold;
 }
 
 /*points*/
