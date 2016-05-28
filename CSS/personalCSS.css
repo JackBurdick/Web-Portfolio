@@ -198,6 +198,7 @@ blockquote {
 	color: #dedbdb;
 	text-transform: uppercase;
 	font-weight: bold;
+	font-size: 1.8em;
 }
 
 /*title year*/
@@ -205,6 +206,8 @@ blockquote {
 	color: #969596;
 	font-style:italic;
 	font-weight: bold;
+	font-size: 1.5em;
+	margin-top: 0px;
 }
 
 /*points*/
@@ -367,10 +370,18 @@ mark {
 	float:left;
 }
 
+#grid-containter {
+	text-align: center;
+}
+
 .card-grid {
   width: 250px;
   height: 250px;
-  margin: 10px;
+  /*margin: 10px;*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right:20px;
+	/*margin-left: -10px;*/
   display: inline-block;
 }
 
@@ -503,8 +514,25 @@ mark {
 
 
 
+/*Allow for extra scrolling before changing the page -- could also select .pp-scrollable*/
+#cd-timeline {
+	padding-bottom: 180px;
+}
 
+#careerSliderList {
+	padding-top: 100px;
+	padding-bottom: 180px;
+}
 
+#educationContainer {
+	padding-bottom: 180px;
+	padding-top: 80px;
+}
+
+#projectsRowContainer {
+	padding-bottom: 180px;
+	padding-top: 80px;
+}
 
 /*#section3 {
 	padding-top: 20px;
