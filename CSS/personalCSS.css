@@ -1,3 +1,17 @@
+#landingTitle {
+		/*text-align: center;*/
+}
+
+#landingTitle h1 {
+	display:inline-block;
+}
+
+.titleShadow {
+	font-size: 4em;
+	color: #39C;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 
 
 .landingContent {
@@ -36,7 +50,7 @@ blockquote {
 }
 
 #section4 {
-	background: linear-gradient(90deg, #eaeced, #f0f0f0 75%, #27e624);
+	background: linear-gradient(90deg, #eaeced, #f0f0f0 75%, #80c95f);
 	/*color: white;*/
 
 }
@@ -272,7 +286,7 @@ header {
 	margin-bottom: 70px;
 }
 
-/*Project Section*/
+/*----------------------------------------------------------Project Section*/
 
 /*Project page headings*/
 .projectsAbout h2 {
@@ -285,6 +299,12 @@ header {
 	margin-bottom: 0px;		/*bring heading closer to content*/
 	margin-top:5px;
 }
+.projectsAbout h5 {
+	color: #6f6f6f;
+	margin-bottom: 0px;		/*bring heading closer to content*/
+	margin-top:5px;
+	width: 82%;						/*width must match .projectsSection width*/
+}
 
 .projectsSection {
 	background: rgba(84, 98, 95, 0.17);
@@ -292,7 +312,7 @@ header {
 	padding-bottom: 20px;
 	border-radius: 2px;
 	color: black;
-	width: 82%;
+	width: 82%;				/*width must match ".projectsAbout h5" width*/
 }
 
 mark {
@@ -369,9 +389,19 @@ mark {
 }
 
 
- /*--------------------------------------------- END OF PROJECT SECTION*/
+/*--------------------------------------------- END OF PROJECT SECTION*/
 
 
+
+/*---------------------------------------------     About Section*/
+
+
+.cd-nugget-info h2 {
+	margin-bottom: 0px;
+	/*margin-top: 3px;*/
+	line-height: 80%;
+	font-size: 2em;
+}
 
 
 /* Style the Image Used to Trigger the Modal */

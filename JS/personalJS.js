@@ -4,13 +4,15 @@ $(document).ready(function() {
 			*/
 
 // #39C
+
+
 	    	$('#pagepiling').pagepiling({
 	          	direction: 'horizontal',
 	    		menu: '#menu',
 	    		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
 					scrollingSpeed: 300,
         	easing: 'swing',
-			    sectionsColor: ['white', '#2C3E50', '#edf5ff', '#bdedc9', '#f5f2f2', 'white' ],
+			    sectionsColor: ['#dedcdc', '#2C3E50', '#edf5ff', '#bdedc9', '#f5f2f2', 'white' ],
 			    navigation: {
 			    	'position': 'right',
 			   		'tooltips': ['Home', 'Education', 'Experience', 'Projects', 'About', 'Contact']
@@ -64,6 +66,14 @@ $(document).ready(function() {
 					},
 					infinite: true
 				});
+
+
+				$('.titleShadow').realshadow({
+					length: 3,
+
+					type: 'text'
+				});
+
 
 });
 
