@@ -241,12 +241,15 @@ blockquote {
 .cd-timeline-content > h2 {
 	text-align: center;
 	margin: -0.1em;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 	font-size: 1.5em;
 }
 
 .cd-timeline-content > p {
 	font-size: 1.2em;
 	margin-bottom: 0px;
+	margin-top: 1px;
 }
 
 #section6 {
@@ -307,12 +310,20 @@ header {
 }
 
 .projectsSection {
-	background: rgba(84, 98, 95, 0.17);
+	font-family: "Lucida Console", Monaco, monospace;
+	font-style: oblique;
+	background: rgba(39, 45, 44, 0.82);
 	padding-top: 20px;
 	padding-bottom: 20px;
 	border-radius: 2px;
-	color: black;
+	color: #cfcfcf;
 	width: 82%;				/*width must match ".projectsAbout h5" width*/
+}
+
+.projectsAbout p {
+	font-size: .8em;
+	padding-left: 22px ;
+  text-indent: -22px ;
 }
 
 mark {
